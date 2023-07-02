@@ -1,0 +1,80 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+header{
+    top: 0px;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    text-align: left; 
+    font-size: 10px;
+}
+
+footer{
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 2vh; padding-left: 25vh;
+    font-size: 10px;
+}
+
+
+
+section{
+    padding-top: 20%;
+    padding-bottom: 25%;
+}
+
+
+.container1 
+{
+    align-items: flex-start; 
+    display: flex;
+    overflow-y: auto;
+    overflow-x: auto;   
+    
+}
+
+.container1 .imgmonth
+{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgb(233, 233, 233);
+    
+}
+.whatsapp_float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+  }
+  .whatsapp-icon {
+    margin-top: 16px;
+  }
+
+  /* for mobile */
+  @media screen and (max-width: 776px){
+    .whatsapp-icon {
+      margin-top: 10px;
+    }
+    .whatsapp_float {
+      width: 40px;
+      height: 40px;
+      bottom: 20px;
+      right: 10px;
+      font-size: 22px;
+    }
+  }
