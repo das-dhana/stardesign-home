@@ -1,0 +1,141 @@
+h1 {
+    color: rgb(0, 0, 0);
+    border-bottom: 2px solid gray;
+    margin: 10px;
+}
+
+nav {
+    color: red;
+    margin-left: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: 100;
+    position: absolute;
+    max-height:120px;
+    border: 1px solid rebeccapurple;
+    
+}
+
+
+section {
+    padding-top: 100px;
+}
+.month{
+    max-height: 50px;
+    border: 10px solid white;
+    display: flex;
+    overflow-x: auto;
+}
+
+.month::-webkit-scrollbar{
+    width: 0;
+    
+}
+
+.month .months{
+    min-width: 80px;
+    height:100px;
+    line-height:30px;
+    text-align: center;
+    background-color: rgb(211, 211, 211);
+    margin-right: 25px;
+}
+
+.body {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow: auto;
+    height: auto;
+    min-height: 100vh;
+
+}
+
+.container1 
+{
+    align-items: flex-start; 
+    display: flex;
+    max-width:fit-content
+    overflow-y: auto;
+    overflow-x: auto;
+    
+}
+
+
+.container2 
+{
+    display: flex;
+    align-items: flex-start;
+    overflow-y: auto;
+    overflow-x: auto;
+    
+    
+}
+
+.container1::-webkit-scrollbar{
+    width:max-content;
+    height: max-content;
+}
+
+.container1 .jan
+{
+    font-size: 30px;
+    
+}
+
+.container1 .date
+{
+    background-color: rgb(229, 222, 248);
+    font-size: 20px;
+    width: 300px;
+    height: 500px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.container1 .imgmonth
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: rgb(233, 233, 233);
+    
+}
+
+.section-header .title{
+    text-align: left;
+    font-size: 38px;
+    margin-left: 120px;
+    color: black;
+}
+
+.section-header .para {
+    text-align: left;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.month-carousel {
+    display: block;
+    font-size: 25px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-color: bisque;
+    border-bottom-color: bisque;
+    border-right-color: bisque;
+    border-left-color: bisque;
+}
+
+
+.stardesignhead{
+    width: max-content; height: 300px;
+     
+}
